@@ -105,8 +105,3 @@ robotic_arm.ino
 ```
 
 ---
-
-
-## 👩‍💻 Developer
-
-[Swetha-Arul](https://github.com/Swetha-Arul)
