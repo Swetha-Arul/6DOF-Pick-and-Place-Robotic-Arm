@@ -53,38 +53,35 @@ void loop() {
   Serial.print(", Angle1: ");
   Serial.print(angle1);
 
-  Serial.print(" | Analog1: ");
-  Serial.print(analogValue1);
-
   Serial.print(", Angle2: ");
   Serial.print(angle2);
 
   Serial.print(" | Analog2: ");
-  Serial.print(analogValue2);
+  Serial.print(analogValue1);
 
   Serial.print(", Angle3: ");
   Serial.print(angle3);
 
   Serial.print(" | Analog3: ");
-  Serial.print(analogValue3);
+  Serial.print(analogValue2);
 
   Serial.print(", Angle4: ");
   Serial.print(angle4);
 
   Serial.print(" | Analog4: ");
-  Serial.print(analogValue4);
+  Serial.print(analogValue3);
 
   Serial.print(", Angle5: ");
   Serial.print(angle5);
 
   Serial.print(" | Analog5: ");
-  Serial.print(analogValue5);
+  Serial.print(analogValue4);
 
   Serial.print(", Angle6: ");
   Serial.print(angle6);
 
   Serial.print(" | Analog6: ");
-  Serial.print(analogValue6);
+  Serial.print(analogValue5);
 
   // Small delay for stable servo movement
   delay(100);
